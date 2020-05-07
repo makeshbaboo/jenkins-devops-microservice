@@ -35,7 +35,9 @@ pipeline {
             }
         }
 
-    } post {
+    }
+
+    post {
         always {
             echo 'testing always'
         }
