@@ -35,5 +35,15 @@ pipeline {
             }
         }
 
+    } post {
+        always {
+            echo 'testing always'
+        }
+        success {
+            echo 'testing success'
+        }
+        failure {
+            echo 'testing failure'
+        }
     }
 }
